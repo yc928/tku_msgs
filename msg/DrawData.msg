@@ -1,0 +1,9 @@
+string draw_type
+uint8 xmin
+uint8 xmax
+uint8 ymin
+uint8 ymax
+uint8 red
+uint8 green
+uint8 blue
+uint8 width                                                 

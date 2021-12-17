@@ -1,0 +1,11 @@
+int32 roll
+int32 pitch
+int32 yaw
+int32 gainroll
+int32 gainpitch
+int32 gainkp
+int32 gainkd
+bool desire_set
+bool imu_reset
+bool force_state
+bool gain_set
