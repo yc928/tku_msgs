@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/HSVInfo.srv"
   "srv/SaveHSV.srv"
   "srv/WalkingGaitParameter.srv"
+  "srv/CameraPropertySrv.srv"
  )
 
 if(BUILD_TESTING)
