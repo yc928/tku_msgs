@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Interface.msg"
   "msg/DrawData.msg"
   "msg/Parameter.msg"
+  "msg/SensorPackage.msg"
   "srv/HSVInfo.srv"
   "srv/SaveHSV.srv"
   "srv/WalkingGaitParameter.srv"
