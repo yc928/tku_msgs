@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ButtonColorForm.msg"
   "msg/HSVValue.msg"
+  "msg/CameraProperty.msg"
   "msg/segmention/ColorObjects.msg"
   "msg/segmention/ObjectInfo.msg"
   "msg/segmention/ObjectList.msg"
@@ -38,6 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/HSVInfo.srv"
   "srv/SaveHSV.srv"
   "srv/WalkingGaitParameter.srv"
+  "srv/CameraPropertySrv.srv"
  )
 
 if(BUILD_TESTING)
