@@ -37,10 +37,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Parameter.msg"
   "msg/SensorPackage.msg"
   "msg/Walking.msg"
+  "msg/SaveMotion.msg"
   "srv/HSVInfo.srv"
   "srv/SaveHSV.srv"
   "srv/WalkingGaitParameter.srv"
   "srv/CameraPropertySrv.srv"
+  "srv/ReadMotion.srv"
  )
 
 if(BUILD_TESTING)
